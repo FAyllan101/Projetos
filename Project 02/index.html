@@ -4,15 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagem</title>
+    <title>Formulário</title>
 </head>
 <body>
-    <a href="https://rocketseat.com.br/">
-        <img src="https://rocketseat.com.br/icons/icon-48x48.png" 
-        alt="logo" 
-        title="Aprendendo 01"
-        height="75px">
-    </a>
-
+    <form action="">
+        <fieldset>
+            <legend>Contato</legend>
+            <label for="name">Nome</label>
+            <br>
+            <input id="name" type="text" name="name" placeholder="Digite seu nome" >
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Digite seu email">
+            <br>
+            <br>
+            <label for="mensage">Mensagem</label>
+            <br>
+            <textarea name="mensage" id="send" cols="30" rows="10" placeholder="Digite sua mensagem..."></textarea>
+            <br>
+            <br>
+            <label for="send"></label>
+            <br>
+            <button type="submit">Enviar</button>
+            <br>
+        </fieldset>
+    </form>
+    
 </body>
 </html>
