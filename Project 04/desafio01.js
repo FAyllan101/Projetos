@@ -12,8 +12,7 @@
 */
 
 
-let grades = 70
-
+let grades = 90
 
     if (grades>= 90){ 
         console.log("A")
