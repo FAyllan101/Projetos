@@ -9,3 +9,14 @@
 
 
 */
+
+//transformDegree('50F')
+
+function transformDegree(degree){
+    const celsiusExists = degree.toUpperCase.includes('C')
+    const farenheintExists = degree.toUpperCase.includes('F');
+
+    if(!celsiusExists && !farenheintExists){
+        throw new Error('Grau não identificado')
+    }
+}
