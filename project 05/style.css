@@ -1,0 +1,13 @@
+.page {
+    background:blue;
+    display: flex;    
+}
+
+aside{
+    background:green;
+    flex: 1;
+}   
+
+main{
+    background:yellow;
+}
